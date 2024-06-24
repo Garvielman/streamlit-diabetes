@@ -29,7 +29,7 @@ with col1 :
 	Polyphagia = st.text_input ('YES/NO')
 
 with col2 :
-	Genital thrush = st.text_input ('YES/NO')
+	Genitalthrush = st.text_input ('YES/NO')
 
 with col1 :
 	visual blurring = st.text_input ('YES/NO')
