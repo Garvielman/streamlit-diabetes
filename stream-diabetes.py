@@ -55,7 +55,7 @@ with col1 :
 diab_diagnosis = ''
 
 if st.button('Test Prediction Diabetes'):
-	diab_prediction = diabetes_model.prediction([[Age,Gender,Polyuria,Polydipsia,sudden weight loss,weakness,Polyphagia,Genital thrush,visual blurring,Itching,Irritability,delayed healing,partial paresis,muscle stiffness,Alopecia,Obesity]])
+	diab_prediction = diabetes_model.prediction([[Age,Gender,Polyuria,Polydipsia,suddenweightloss,weakness,Polyphagia,Genitalthrush,visualblurring,Itching,Irritability,delayedhealing,partialparesis,musclestiffness,Alopecia,Obesity]])
 
 	if(diab_prediction[0] == 1):
 		diab_diagnosis = 'Pasien terkena Diabetes'
