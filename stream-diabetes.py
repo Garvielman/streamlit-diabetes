@@ -41,7 +41,7 @@ with col1 :
 	Irritability = st.text_input ('YES/NO')
 
 with col2 :
-	delayed healing = st.text_input ('YES/NO')
+	delayedhealing = st.text_input ('YES/NO')
 
 with col1 :
 	partial paresis = st.text_input ('YES/NO')
