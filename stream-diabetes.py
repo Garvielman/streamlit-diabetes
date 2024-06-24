@@ -32,7 +32,7 @@ with col2 :
 	Genitalthrush = st.text_input ('YES/NO')
 
 with col1 :
-	visual blurring = st.text_input ('YES/NO')
+	visualblurring = st.text_input ('YES/NO')
 
 with col2 :
 	Itching = st.text_input ('YES/NO')
