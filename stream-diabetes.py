@@ -3,7 +3,7 @@ import streamlit as st
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-st.tittle('Data Mining Prediction Diabetes')
+st.tittle('DataMiningPredictionDiabetes')
 
 col1, col2 = st.columns(2)
 
