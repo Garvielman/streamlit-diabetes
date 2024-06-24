@@ -44,10 +44,10 @@ with col2 :
 	delayedhealing = st.text_input ('YES/NO')
 
 with col1 :
-	partial paresis = st.text_input ('YES/NO')
+	partialparesis = st.text_input ('YES/NO')
 
 with col2 :
-	muscle stiffness = st.text_input ('YES/NO')
+	musclestiffness = st.text_input ('YES/NO')
 
 with col1 :
 	Alopecia,Obesity = st.text_input ('YES/NO')
