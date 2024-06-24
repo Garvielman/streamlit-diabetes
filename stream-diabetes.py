@@ -20,7 +20,7 @@ with col2 :
 	Polydipsia = st.text_input ('YES/NO')
 
 with col1 :
-	sudden weight loss = st.text_input ('YES/NO')
+	suddenweightloss = st.text_input ('YES/NO')
 
 with col2 :
 	weakness = st.text_input ('YES/NO')
