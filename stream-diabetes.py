@@ -14,43 +14,46 @@ with col2 :
 	Gender = st.text_input ('input Gender')
 
 with col1 :
-	Polyuria = st.text_input ('YES/NO')
+	Polyuria = st.text_input ('input Polyuria')
 
 with col2 :
-	Polydipsia = st.text_input ('YES/NO')
+	Polydipsia = st.text_input ('input Polydipsia')
 
 with col1 :
-	suddenweightloss = st.text_input ('YES/NO')
+	suddenweightloss = st.text_input ('input sudden weight loss')
 
 with col2 :
-	weakness = st.text_input ('YES/NO')
+	weakness = st.text_input ('input weaknes')
 
 with col1 :
-	Polyphagia = st.text_input ('YES/NO')
+	Polyphagia = st.text_input ('input Polyphagia')
 
 with col2 :
-	Genitalthrush = st.text_input ('YES/NO')
+	Genitalthrush = st.text_input ('input Genital thrush')
 
 with col1 :
-	visualblurring = st.text_input ('YES/NO')
+	visualblurring = st.text_input ('input visual blurring')
 
 with col2 :
-	Itching = st.text_input ('YES/NO')
+	Itching = st.text_input ('input Itching')
 
 with col1 :
-	Irritability = st.text_input ('YES/NO')
+	Irritability = st.text_input ('input Irritability')
 
 with col2 :
-	delayedhealing = st.text_input ('YES/NO')
+	delayedhealing = st.text_input ('input delay healing')
 
 with col1 :
-	partialparesis = st.text_input ('YES/NO')
+	partialparesis = st.text_input ('input partial paresis')
 
 with col2 :
-	musclestiffness = st.text_input ('YES/NO')
+	musclestiffness = st.text_input ('input muscle stiffness')
 
 with col1 :
-	Alopecia,Obesity = st.text_input ('YES/NO')
+	Alopecia = st.text_input ('input Alopecia')
+	
+with col2 :
+	Obesity = st.text_input ('input Obesity')
 
 diab_diagnosis = ''
 
